@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url(/Styles/reset.css);
+@import url(/Styles/cabeçalho.css);
+@import url(/Styles/rodape.css);
+
+:root {
+    --cor-fundo: #FFFFFF;
+    --cor-opçoes-cabeçalho:#667085;
+    --vermelho-vinho: #8E2424;
+    --preto: #101828;
+    --borda-vaga: #EAECF0;
+    --fonte-principal: "Inter";
+}
+
+body {
+    background: var(--cor-fundo);
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container__sobre-nos {
+    text-align: center;
+    padding: 3em;
+}
+
+.sobre-nos {
+    font-weight: 600;
+    color: var(--vermelho-vinho);
+}
+
+.titulo__descriçao {
+    font-size: 48px;
+    font-weight: 600;
+    padding: 0.5em 0 0.7em 0;
+    color: var(--preto);
+}
+
+.texto__descriçao {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-opçoes-cabeçalho);
+    padding: 0 25%;
+}
+
+.container__metrica {
+    display: flex;
+    padding: 1.5em 4em;
+}
+
+.matrica {
+    padding: 1.5em 3em 0;
+    width: 100vw;
+}
+
+.metrica__numeral {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho-vinho);
+}
+
+.metrica__titulo {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--preto);
+    padding: 1em 0 0.7em 0;
+}
+
+.metrica__texto {
+    font-weight: 400;
+    color: var(--cor-opçoes-cabeçalho);
+}
+
+.container__talentos {
+    padding: 10em;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.talentos {
+    font-size: 14px;
+    color: var(--vermelho-vinho);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 1em;
+    padding: 0.5em 1em;
+}
+
+.titulo__talentos {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto);
+    padding: 1em 0 1.1em 0;
+}
+
+.texto__talentos {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cor-opçoes-cabeçalho);
+    padding-bottom: 3em ;
+}
+
+.container__vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-setor {
+    font-size: 20px;
+    color: var(--preto);
+    padding: 3em 0 1em;
+}
+
+.Vaga {
+    border: 2px solid var(--borda-vaga) ;
+    border-radius: 16px;
+    padding: 1.5em 25em 1.5em 1em;
+    margin: 1.5em 0;
+}
+
+.titulo-vaga {
+    font-size: 18px;
+    color: var(--preto);
+}
+
+.informaçoes {
+    color: var(--cor-opçoes-cabeçalho);
+    padding-top: 2em;
+}
+
+span {
+    padding-right: 1.5em;
+}
+
+.container__depoimento {
+    background: rgba(142, 36, 36, 0.05);
+    text-align: center;
+    padding: 3em 0;
+    margin: 3em 10em;
+}
+
+.depoimento {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-depoimento {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho-vinho);
+    padding-bottom: 1.5em;
+}
+
+.texto-depoimento {
+    font-size: 36px;
+    color: var(--preto);
+}
+
+.imagem-colaboradora {
+    width: 3.5vw;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3em 0 1em 0;
+}
+
+.nome-colaboradora {
+    color: var(--preto);
+    padding: 0.6em 0;
+}
+
+.funçao-colaboradora {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cor-opçoes-cabeçalho);
+}

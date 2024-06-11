@@ -1,0 +1,48 @@
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.cabeçalho__logo {
+    padding: 1.5em;
+}
+
+.container__opçoes, .container__botao-cabeçalho {
+    padding: 1.8em;
+}
+
+.container__opçoes {
+    padding-right: 6em;
+}
+
+.cabeçalho__opçoes {
+    display: flex;
+    justify-content: center;
+    padding-right: 15em;
+}
+
+.opçoes__link {
+    text-decoration: none;
+    color: var(--cor-opçoes-cabeçalho);
+    padding: 0 1.5em;
+}
+
+.container__botao-cabeçalho {
+    text-decoration: none;  
+}
+.opçoes__botao {
+    text-decoration: none;
+    padding: 0 1.5em;
+}
+
+.botao-entrar {
+    color: var(--cor-opçoes-cabeçalho);
+}
+
+.botao-cadastrar {
+    background-color: var(--vermelho-vinho);
+    border-radius: 0.6em;
+    padding: 0.63em 1.13em;
+    color: var(--cor-fundo);
+}
